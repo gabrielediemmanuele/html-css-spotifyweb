@@ -21,6 +21,36 @@
   height: 600px;
 
   border: 2px dashed green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-cont1 {
+  width: 100%;
+  min-height: 200px;
+
+  border: 2px dashed blue;
+}
+
+.sidebar-cont2 {
+  width: 100%;
+  min-height: 75px;
+
+  border: 2px dashed rgb(238, 0, 255);
+}
+
+.sidebar .side-logo {
+  width: 100%;
+  height: 70px;
+
+  border: 2px dashed rgb(55, 95, 240);
+}
+.sidebar .side-tools {
+  width: 100%;
+  height: 40px;
+
+  border: 2px dashed purple;
 }
 
 /*** HIDE-BAR SECTION ****/
