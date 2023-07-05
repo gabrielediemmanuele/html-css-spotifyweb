@@ -9,7 +9,7 @@
 /**** CONTAINERS ***/
 .total-container {
   width: 100%;
-  min-height: 500px;
+  height: calc(100vh -60px);
 
   border: 1.5px dashed red;
   display: flex;
@@ -18,7 +18,7 @@
 /*** SIDEBAR SECTION ***/
 .sidebar {
   width: 200px;
-  height: 600px;
+  height: calc(100vh - 60px);
 
   border: 1.5px dashed green;
   display: flex;
@@ -93,7 +93,7 @@
 /*** HIDE-BAR SECTION ****/
 .hide-bar {
   width: 50px;
-  height: 600px;
+  height: calc(100vh - 60px);
 
   border: 1.5px dashed rgb(0, 34, 255);
   display: none;
@@ -137,8 +137,8 @@
 
 /*** MAIN-CONTAINER SECTION ***/
 .main-container {
-  width: calc(100% - 200px);
-  min-height: 600px;
+  width: 100%;
+  height: calc(100vh - 60px);
 
   border: 1.5px dashed rgb(255, 157, 0);
 }
@@ -160,5 +160,30 @@
   min-height: 60px;
 
   border: 1.5px dashed blue;
-  display: block;
+  padding: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container .left-footbar {
+  width: 20%;
+  height: 40px;
+
+  border: 1.5px dashed blue;
+}
+
+.footer-container .middle-footbar {
+  width: 35%;
+  height: 40px;
+
+  border: 1.5px dashed blue;
+}
+
+.footer-container .right-footbar {
+  width: 20%;
+  height: 40px;
+
+  border: 1.5px dashed blue;
 }
