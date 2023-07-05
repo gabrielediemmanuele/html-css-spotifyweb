@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+/********************/
+/**** CONTAINERS ***/
 .total-container {
   width: 100%;
   min-height: 500px;
@@ -13,6 +15,7 @@
   display: flex;
 }
 
+/*** SIDEBAR SECTION ***/
 .sidebar {
   width: 200px;
   height: 600px;
@@ -20,6 +23,16 @@
   border: 2px dashed green;
 }
 
+/*** HIDE-BAR SECTION ****/
+.hide-bar {
+  width: 50px;
+  height: 600px;
+
+  border: 2px dashed rgb(0, 34, 255);
+  display: none;
+}
+
+/*** MAIN-CONTAINER SECTION ***/
 .main-container {
   width: calc(100% - 200px);
   min-height: 600px;
@@ -27,6 +40,7 @@
   border: 2px dashed rgb(255, 157, 0);
 }
 
+/*** FOOTER-CONTAINER SECTION ***/
 .footer-container {
   width: 100%;
   min-height: 60px;
