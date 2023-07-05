@@ -17,7 +17,8 @@
 
 /*** SIDEBAR SECTION ***/
 .sidebar {
-  width: 200px;
+  min-width: 200px;
+  flex-basis: 200px;
   height: calc(100vh - 60px);
 
   border: 1.5px dashed green;
@@ -137,21 +138,29 @@
 
 /*** MAIN-CONTAINER SECTION ***/
 .main-container {
-  width: 100%;
+  width: (100% - 200px);
   height: calc(100vh - 60px);
 
   border: 1.5px dashed rgb(255, 157, 0);
+  padding: 0;
 }
 
 /*** Upgrade Bar ***/
-.main-container .upgrade-bar {
+.upgrade-bar {
   width: 100%;
   min-height: 65px;
 
   background-color: rgb(0, 0, 0, 0.5);
-
   position: fixed;
-  top: 0;
+}
+
+/*** main-nav bar ***/
+.main-container .main-nav {
+  width: 100%;
+  height: 35px;
+
+  border: 1.5px dashed greenyellow;
+  margin-top: 65px;
 }
 
 /*** FOOTER-CONTAINER SECTION ***/
@@ -168,21 +177,21 @@
 }
 
 .footer-container .left-footbar {
-  width: 20%;
+  width: 25%;
   height: 40px;
 
   border: 1.5px dashed blue;
 }
 
 .footer-container .middle-footbar {
-  width: 35%;
+  width: 40%;
   height: 40px;
 
   border: 1.5px dashed blue;
 }
 
 .footer-container .right-footbar {
-  width: 20%;
+  width: 25%;
   height: 40px;
 
   border: 1.5px dashed blue;
