@@ -25,19 +25,12 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
+/*** Sidebar Cont 1 ***/
 .sidebar-cont1 {
   width: 100%;
   min-height: 200px;
 
   border: 2px dashed blue;
-}
-
-.sidebar-cont2 {
-  width: 100%;
-  min-height: 75px;
-
-  border: 2px dashed rgb(238, 0, 255);
 }
 
 .sidebar .side-logo {
@@ -46,11 +39,55 @@
 
   border: 2px dashed rgb(55, 95, 240);
 }
+
 .sidebar .side-tools {
   width: 100%;
   height: 40px;
 
   border: 2px dashed purple;
+}
+
+.playlist-cont {
+  width: 100%;
+  min-height: 100px;
+
+  border: 2px dashed orangered;
+}
+
+.playlist-cont .new-playlist {
+  width: 100%;
+  min-height: 50px;
+
+  border: 2px dashed blue;
+}
+
+.playlist-cont .playlist-nest {
+  width: 100%;
+  min-height: 50px;
+
+  border: 2px dashed rgb(13, 255, 0);
+}
+
+/*** Sidebar Cont 2 ***/
+.sidebar-cont2 {
+  width: 100%;
+  min-height: 45px;
+
+  border: 2px dashed rgb(238, 0, 255);
+}
+
+.sidebar-cont2 .app-install {
+  width: 100%;
+  min-height: 35px;
+
+  border: 2px dashed rgb(0, 68, 255);
+}
+
+.sidebar-cont2 .profile-cont {
+  width: 100%;
+  min-height: 35px;
+
+  border: 2px dashed rgb(13, 255, 0);
 }
 
 /*** HIDE-BAR SECTION ****/
