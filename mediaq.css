@@ -1,0 +1,25 @@
+/*******************/
+/***** TABLET *****/
+/*****************/
+@media screen and (max-width: 768px) {
+}
+
+/*******************/
+/*** SMARTPHONE ***/
+/*****************/
+
+@media screen and (max-width: 576px) {
+  .total-container .sidebar {
+    display: none;
+  }
+
+  .total-container .main-container {
+    width: calc(100% - 50px);
+  }
+
+  .total-container .hide-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
