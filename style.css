@@ -164,8 +164,11 @@
   border: 1.5px dashed greenyellow;
   margin-top: 65px;
 
-  padding: 0 150px;
-  line-height: 35px;
+  /* padding: 0 150px; */
+  /* line-height: 35px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-nav ul {
@@ -174,11 +177,12 @@
   font-weight: bold;
 
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
 .main-nav ul li {
-  margin: 0 15px;
+  margin: 5px 15px;
 }
 
 /*** list settings ***/
