@@ -149,11 +149,28 @@
 
 /*** Upgrade Bar ***/
 .upgrade-bar {
-  width: 100%;
+  width: calc(100% - 200px);
   min-height: 65px;
 
   background-color: rgb(0, 0, 0, 0.5);
   position: fixed;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+/*** Upgrade Button ***/
+.upgrade-bar .up-bar-button {
+  border: 1px solid white;
+  padding: 5px 25px;
+  color: white;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 20px;
 }
 
 /*** main-nav bar ***/

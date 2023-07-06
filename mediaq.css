@@ -22,4 +22,8 @@
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .upgrade-bar {
+    width: calc(100% - 50px);
+  }
 }
