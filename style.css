@@ -12,7 +12,7 @@
   width: 100%;
   height: calc(100vh -60px);
 
-  border: 1.5px dashed red;
+  /* border: 1.5px dashed red; */
   display: flex;
 }
 
@@ -22,31 +22,42 @@
   flex-basis: 200px;
   height: calc(100vh - 60px);
 
-  border: 1.5px dashed green;
+  padding: 10px;
+  box-sizing: border-box;
+
+  /* border: 1.5px dashed green; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: grey;
+  background-color: #000000;
 }
 /*** Sidebar Cont 1 ***/
 .sidebar-cont1 {
   width: 100%;
   min-height: 200px;
 
-  border: 1.5px dashed blue;
+  /*  border: 1.5px dashed blue; */
 }
 
 .sidebar .side-logo {
-  width: 100%;
-  height: 70px;
-
-  border: 1.5px dashed rgb(55, 95, 240);
+  width: 60%;
+  /* border: 1.5px dashed rgb(55, 95, 240); */
 }
 
 .sidebar .side-tools {
   width: 100%;
   height: 40px;
+  /* border: 1.5px dashed purple; */
+  display: flex;
+  align-items: center;
+}
 
-  border: 1.5px dashed purple;
+.sidebar .side-tools .fa-solid {
+  margin-right: 10px;
+}
+.sidebar .side-tools span {
+  font-size: 12px;
 }
 
 .playlist-cont {
@@ -257,7 +268,7 @@
   width: 100%;
   min-height: 60px;
 
-  border: 1.5px dashed blue;
+  /* border: 1.5px dashed blue; */
   padding: 2px;
   background-color: #282828;
   display: flex;
@@ -270,7 +281,7 @@
   width: 25%;
   height: 50px;
 
-  border: 1.5px dashed greenyellow;
+  /* border: 1.5px dashed greenyellow; */
   padding: 2px;
 
   display: flex;
@@ -297,7 +308,7 @@
   width: 40%;
   height: 50px;
 
-  border: 1.5px dashed greenyellow;
+  /* border: 1.5px dashed greenyellow; */
   padding: 3px;
   color: white;
   flex-grow: 1;
@@ -359,7 +370,7 @@
   width: 25%;
   height: 50px;
 
-  border: 1.5px dashed greenyellow;
+  /* border: 1.5px dashed greenyellow; */
   padding: 2px;
   display: flex;
   align-items: center;
