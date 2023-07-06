@@ -16,6 +16,11 @@
     width: calc(100% / 2);
     padding: 10px;
   }
+
+  .playlist-cont .playlist-nest {
+    height: 120px;
+    overflow-y: auto;
+  }
 }
 
 /*******************/
