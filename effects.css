@@ -1,0 +1,33 @@
+/*** SIDEBAR CUSTOMS ***/
+
+/**ICONS**/
+.sidebar-cont1 > .side-tools:hover {
+  border-left: 2px solid greenyellow;
+  padding-left: 5px;
+  color: white;
+}
+
+/*** playlist ***/
+.sidebar-cont1 .playlist-cont .new-playlist:hover .fa-solid {
+  color: greenyellow;
+}
+.sidebar-cont1 .playlist-cont .new-playlist:hover {
+  color: white;
+}
+.sidebar-cont1 .playlist-cont .playlist-nest > div:hover {
+  color: white;
+}
+
+/*** INSTALL APP AND PROFILE ***/
+.sidebar-cont2 .app-install:hover {
+  color: white;
+}
+
+.sidebar-cont2 .profile-cont span:hover {
+  color: greenyellow;
+}
+
+/***HIDE SIDE BAR***/
+.hide-bar .upcont .upslot:hover {
+  color: white;
+}
