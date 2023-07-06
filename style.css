@@ -357,4 +357,53 @@
 
   border: 1.5px dashed greenyellow;
   padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+/***ICON SETTINGS ***/
+
+.right-footbar .right-icons .fa-solid {
+  margin: 0 5px;
+}
+
+/*** VOLUME BAR SETTINGS ***/
+.volume-level-bar {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+}
+
+.volume-bar {
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #6f6f6f;
+  border-radius: 2px;
+  margin: 0 5px;
+}
+
+.volume-bar > .volume {
+  display: block;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  width: 15%;
+
+  position: relative;
+}
+
+.volume-bar > .volume > .volume-dot {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+
+  /* display: none; */
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
 }
