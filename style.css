@@ -136,6 +136,7 @@
 .hide-bar .upcont {
   width: 100%;
   min-height: 150px;
+  color: grey;
 }
 
 .hide-bar .upcont .upslot.logo > img {
@@ -155,6 +156,7 @@
 .hide-bar .downcont {
   width: 100%;
   min-height: 80px;
+  color: gray;
 }
 
 .hide-bar .downcont .downslot {

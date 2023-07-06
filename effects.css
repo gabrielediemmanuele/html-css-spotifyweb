@@ -29,5 +29,26 @@
 
 /***HIDE SIDE BAR***/
 .hide-bar .upcont .upslot:hover {
+  border-left: 2px solid greenyellow;
+  padding-left: 5px;
   color: white;
 }
+
+.hide-bar .downcont .downslot:hover {
+  color: greenyellow;
+}
+
+/*** HEADER ***/
+.main-container .upgrade-bar .up-bar-button:hover {
+  color: greenyellow;
+  border: 1px solid greenyellow;
+}
+
+/*list*/
+.main-container .main-nav ul li:hover {
+  color: white;
+  border-bottom: 2px solid greenyellow;
+  box-sizing: border-box;
+}
+
+/*** ALBUMS ***/
