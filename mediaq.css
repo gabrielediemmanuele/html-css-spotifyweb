@@ -1,7 +1,21 @@
 /*******************/
+/***** Desktop *****/
+/*****************/
+@media screen and (max-width: 992px) {
+  .albums-container .row .col {
+    width: calc(100% / 4);
+    padding: 10px;
+  }
+}
+
+/*******************/
 /***** TABLET *****/
 /*****************/
 @media screen and (max-width: 768px) {
+  .albums-container .row .col {
+    width: calc(100% / 2);
+    padding: 10px;
+  }
 }
 
 /*******************/
@@ -25,5 +39,10 @@
 
   .upgrade-bar {
     width: calc(100% - 50px);
+  }
+
+  .albums-container .row .col {
+    width: calc(100% / 2);
+    padding: 10px;
   }
 }
