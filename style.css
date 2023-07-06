@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /********************/
@@ -138,11 +139,11 @@
 
 /*** MAIN-CONTAINER SECTION ***/
 .main-container {
-  width: (100% - 200px);
+  width: calc(100% - 200px);
   height: calc(100vh - 60px);
 
   border: 1.5px dashed rgb(255, 157, 0);
-  padding: 0;
+  /* padding: 0px 5px; */
   overflow-y: auto;
 }
 
@@ -164,13 +165,58 @@
   margin-top: 65px;
 }
 
+/*** ALBUM SECTION ***/
+.main-container > .playlist-title {
+  width: 200px;
+
+  border: 1.5px dashed blue;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+/*** ALBUMS ***/
+
+.albums-container {
+  width: 100%;
+
+  border: 1.5px dashed blue;
+  margin-top: 10px;
+}
+
+.albums-container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.albums-container .row .col {
+  max-width: 150px;
+  min-height: 50px;
+  padding: 5px;
+
+  border: 1.5px dashed rgb(0, 255, 68);
+}
+
+.albums-container .row .col .card {
+  width: 100%;
+  min-height: 50px;
+
+  border: 1.5px dashed magenta;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.albums-container .row .col .card > img {
+  width: 100%;
+}
+
 /*** FOOTER-CONTAINER SECTION ***/
 .footer-container {
   width: 100%;
   min-height: 60px;
 
   border: 1.5px dashed blue;
-  padding: 5px;
+  padding: 1px;
 
   display: flex;
   justify-content: space-between;
@@ -179,21 +225,21 @@
 
 .footer-container .left-footbar {
   width: 25%;
-  height: 40px;
+  height: 50px;
 
   border: 1.5px dashed blue;
 }
 
 .footer-container .middle-footbar {
   width: 40%;
-  height: 40px;
+  height: 50px;
 
   border: 1.5px dashed blue;
 }
 
 .footer-container .right-footbar {
   width: 25%;
-  height: 40px;
+  height: 50px;
 
   border: 1.5px dashed blue;
 }
