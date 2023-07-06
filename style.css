@@ -180,7 +180,7 @@
   /* border: 1.5px dashed rgb(255, 157, 0); */
   /* padding: 0px 5px; */
   overflow-y: auto;
-  color: #6f6f6f;
+  color: rgb(174, 174, 174);
 }
 
 /*** Upgrade Bar ***/
@@ -188,7 +188,7 @@
   width: calc(100% - 200px);
   min-height: 65px;
 
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.8);
   position: fixed;
   top: 0;
   right: 0;
@@ -201,7 +201,9 @@
 /*** Upgrade Button ***/
 .upgrade-bar .up-bar-button {
   border: 1px solid white;
-  padding: 5px 25px;
+
+  padding: 10px 25px;
+
   color: white;
   border-radius: 20px;
   font-size: 10px;
@@ -214,8 +216,7 @@
   width: 100%;
   min-height: 35px;
 
-  border: 1.5px dashed greenyellow;
-  margin-top: 65px;
+  margin-top: 70px;
 
   /* padding: 0 150px; */
   /* line-height: 35px; */
@@ -226,8 +227,8 @@
 
 .main-nav ul {
   list-style: none;
-  font-size: 8px;
-  font-weight: bold;
+  font-size: 10px;
+  font-weight: bolder;
 
   display: flex;
   flex-wrap: wrap;
@@ -243,7 +244,10 @@
 /*** ALBUM SECTION ***/
 .albums-container > .playlist-title {
   width: 35%;
-  border: 1.5px dashed blue;
+}
+
+.albums-container > .playlist-title h3 {
+  color: white;
 }
 
 /*** ALBUMS ***/
@@ -251,7 +255,6 @@
 .albums-container {
   width: 100%;
 
-  border: 1.5px dashed blue;
   margin-top: 10px;
   padding: 10px;
 }
@@ -265,15 +268,12 @@
 .albums-container .row .col {
   width: calc(100% / 6);
   padding: 10px;
-
-  border: 1.5px dashed rgb(0, 255, 68);
 }
 
 .albums-container .row .col .card {
   width: 100%;
   min-height: 50px;
 
-  border: 1.5px dashed magenta;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -282,6 +282,11 @@
 .albums-container .row .col .card > img {
   width: 100%;
   margin-bottom: 5px;
+}
+.albums-container .row .col .card h4 {
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 #circle-img {
