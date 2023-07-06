@@ -247,8 +247,13 @@
 
 .albums-container .row .col .card > img {
   width: 100%;
+  margin-bottom: 5px;
 }
 
+#circle-img {
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
 /*** FOOTER-CONTAINER SECTION ***/
 .footer-container {
   width: 100%;
