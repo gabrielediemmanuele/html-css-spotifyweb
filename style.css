@@ -275,6 +275,7 @@
 
   display: flex;
   align-items: center;
+  color: #6f6f6f;
 }
 
 .footer-container .left-footbar > img {
@@ -282,7 +283,10 @@
   margin-right: 5px;
 }
 .footer-container .left-footbar .song-title {
-  margin-right: 15px;
+  margin-right: 10px;
+}
+.footer-container .left-footbar .song-title h5 {
+  color: white;
 }
 .footer-container .left-footbar .song-title h6 {
   font-size: 10px;
