@@ -205,12 +205,9 @@
 /*** list settings ***/
 
 /*** ALBUM SECTION ***/
-.main-container > .playlist-title {
-  width: 300px;
-
+.albums-container > .playlist-title {
+  width: 35%;
   border: 1.5px dashed blue;
-  margin-top: 20px;
-  margin-left: 5px;
 }
 
 /*** ALBUMS ***/
@@ -261,30 +258,51 @@
   min-height: 60px;
 
   border: 1.5px dashed blue;
-  padding: 1px;
-
+  padding: 2px;
+  background-color: #282828;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/*** left bar ***/
 .footer-container .left-footbar {
   width: 25%;
   height: 50px;
 
-  border: 1.5px dashed blue;
+  border: 1.5px dashed greenyellow;
+  padding: 2px;
+
+  display: flex;
+  align-items: center;
 }
 
+.footer-container .left-footbar > img {
+  width: 43px;
+  margin-right: 5px;
+}
+.footer-container .left-footbar .song-title {
+  margin-right: 15px;
+}
+.footer-container .left-footbar .song-title h6 {
+  font-size: 10px;
+}
+
+/*** middle bar ***/
 .footer-container .middle-footbar {
   width: 40%;
   height: 50px;
 
-  border: 1.5px dashed blue;
+  border: 1.5px dashed greenyellow;
+  padding: 2px;
+  flex-grow: 1;
 }
 
+/*** right bar ***/
 .footer-container .right-footbar {
   width: 25%;
   height: 50px;
 
-  border: 1.5px dashed blue;
+  border: 1.5px dashed greenyellow;
+  padding: 2px;
 }
