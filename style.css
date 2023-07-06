@@ -243,7 +243,8 @@
 
 /*** ALBUM SECTION ***/
 .albums-container > .playlist-title {
-  width: 35%;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .albums-container > .playlist-title h3 {
