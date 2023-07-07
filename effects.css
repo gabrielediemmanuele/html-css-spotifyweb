@@ -80,6 +80,11 @@
   text-decoration: underline;
 }
 
+.col .card:hover {
+  transition: transform 0.5s;
+  transform: scale(1.1);
+}
+
 /*** footer bar ***/
 
 /**LEFT PART**/
