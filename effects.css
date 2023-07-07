@@ -54,7 +54,7 @@
   transform: scale(1.1);
 }
 
-/*list*/
+/* Main container list nav*/
 .main-container .main-nav ul li:hover {
   color: white;
   box-shadow: 0 2px 0 0 greenyellow;
@@ -64,12 +64,13 @@
 
 /*** ALBUMS ***/
 .albums-container .row .col .card:hover .blackhover {
-  display: flex;
-  cursor: pointer;
+  /* display: flex;
+  cursor: pointer; */
 }
 
 .albums-container .playlist-title h3:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 /*** footer bar ***/
@@ -78,32 +79,38 @@
 .left-footbar .song-title > h6:hover {
   text-decoration: underline;
   color: greenyellow;
+  cursor: pointer;
 }
 
 .left-footbar .icon-cont .fa-heart:hover,
 .fa-folder:hover {
   color: white;
+  cursor: pointer;
 }
 
 /***MIDDLE PART***/
 .progress-bar:hover > .progression {
   background-color: greenyellow;
+  cursor: pointer;
 }
 
 .progress-bar:hover > .progression > .progress-dot {
   display: block;
+  cursor: pointer;
 }
 
 .middle-footbar .middle-icons .fa-circle-play:hover {
   transition: transform 0.2s;
   transform: scale(1.1);
   color: greenyellow;
+  cursor: pointer;
 }
 
 .middle-footbar .middle-icons .fa-solid:hover {
   transition: transform 0.2s;
   transform: scale(1.1);
   color: greenyellow;
+  cursor: pointer;
 }
 
 /***RIGHT PART ***/
@@ -111,11 +118,14 @@
   transition: transform 0.2s;
   transform: scale(1.1);
   color: greenyellow;
+  cursor: pointer;
 }
 .volume-bar:hover > .volume {
   background-color: greenyellow;
+  cursor: pointer;
 }
 
 .volume-bar:hover > .volume > .volume-dot {
   display: block;
+  cursor: pointer;
 }

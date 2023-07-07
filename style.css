@@ -279,31 +279,13 @@
 
 .albums-container .row .col .card {
   width: 100%;
-  min-height: 50px;
 
+  /* border: 1px dashed red; */
   display: flex;
   flex-direction: column;
   align-items: center;
 
   position: relative;
-}
-
-.albums-container .row .col .card .blackhover {
-  width: 148.667px;
-  height: 148.667px;
-
-  border: 1px dashed red;
-
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 8;
-  background-color: rgb(0, 0, 0, 0.8);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .albums-container .row .col .card > img {
