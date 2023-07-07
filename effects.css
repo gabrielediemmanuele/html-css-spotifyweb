@@ -68,6 +68,10 @@
   cursor: pointer;
 }
 
+.albums-container .playlist-title h3:hover {
+  text-decoration: underline;
+}
+
 /*** footer bar ***/
 
 /**LEFT PART**/
@@ -93,14 +97,21 @@
 .middle-footbar .middle-icons .fa-circle-play:hover {
   transition: transform 0.2s;
   transform: scale(1.1);
+  color: greenyellow;
 }
 
 .middle-footbar .middle-icons .fa-solid:hover {
   transition: transform 0.2s;
   transform: scale(1.1);
+  color: greenyellow;
 }
 
 /***RIGHT PART ***/
+.right-footbar .right-icons .fa-solid:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+  color: greenyellow;
+}
 .volume-bar:hover > .volume {
   background-color: greenyellow;
 }
