@@ -47,7 +47,7 @@
 /*list*/
 .main-container .main-nav ul li:hover {
   color: white;
-  border-bottom: 2px solid greenyellow;
+  box-shadow: 0 2px 0 0 greenyellow;
   box-sizing: border-box;
 }
 
