@@ -5,26 +5,32 @@
   border-left: 2px solid greenyellow;
   padding-left: 5px;
   color: white;
+  cursor: pointer;
 }
 
 /*** playlist ***/
 .sidebar-cont1 .playlist-cont .new-playlist:hover .fa-solid {
   color: greenyellow;
+  cursor: pointer;
 }
 .sidebar-cont1 .playlist-cont .new-playlist:hover {
   color: white;
+  cursor: pointer;
 }
 .sidebar-cont1 .playlist-cont .playlist-nest > div:hover {
   color: white;
+  cursor: pointer;
 }
 
 /*** INSTALL APP AND PROFILE ***/
 .sidebar-cont2 .app-install:hover {
   color: white;
+  cursor: pointer;
 }
 
 .sidebar-cont2 .profile-cont span:hover {
   color: greenyellow;
+  cursor: pointer;
 }
 
 /***HIDE SIDE BAR***/
@@ -32,16 +38,20 @@
   border-left: 2px solid greenyellow;
   padding-left: 5px;
   color: white;
+  cursor: pointer;
 }
 
 .hide-bar .downcont .downslot:hover {
   color: greenyellow;
+  cursor: pointer;
 }
 
 /*** HEADER ***/
 .main-container .upgrade-bar .up-bar-button:hover {
   color: greenyellow;
   border: 1px solid greenyellow;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 /*list*/
@@ -49,6 +59,51 @@
   color: white;
   box-shadow: 0 2px 0 0 greenyellow;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 /*** ALBUMS ***/
+.albums-container .row .col .card:hover .blackhover {
+  display: flex;
+  cursor: pointer;
+}
+
+/*** footer bar ***/
+
+/**LEFT PART**/
+.left-footbar .song-title > h6:hover {
+  text-decoration: underline;
+  color: greenyellow;
+}
+
+.left-footbar .icon-cont .fa-heart:hover,
+.fa-folder:hover {
+  color: white;
+}
+
+/***MIDDLE PART***/
+.progress-bar:hover > .progression {
+  background-color: greenyellow;
+}
+
+.progress-bar:hover > .progression > .progress-dot {
+  display: block;
+}
+
+.middle-footbar .middle-icons .fa-circle-play:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+.middle-footbar .middle-icons .fa-solid:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+/***RIGHT PART ***/
+.volume-bar:hover > .volume {
+  background-color: greenyellow;
+}
+
+.volume-bar:hover > .volume > .volume-dot {
+  display: block;
+}
