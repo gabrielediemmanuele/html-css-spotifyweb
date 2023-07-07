@@ -63,14 +63,21 @@
 }
 
 /*** ALBUMS ***/
-.albums-container .row .col .card:hover .blackhover {
-  /* display: flex;
-  cursor: pointer; */
+.card .card-relative:hover .blackground {
+  display: flex;
+}
+
+.card .card-relative .blackground:hover .fa-circle-play:hover {
+  color: greenyellow;
 }
 
 .albums-container .playlist-title h3:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.col .card:hover h4 {
+  text-decoration: underline;
 }
 
 /*** footer bar ***/
